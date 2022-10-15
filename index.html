@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="row">
+        <form class="col-lg-6">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Seu Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="seu@email.com"
+            />
+            <div id="emailHelp" class="form-text">
+              Nunca compartilharemos seu e-mail com mais ninguém.
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Primeiro nome"
+                aria-label="Primeiro nome"
+              />
+            </div>
+            <div class="col">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Sobrenome"
+                aria-label="Sobrenome"
+              />
+            </div>
+          </div>
+          <div class="col">
+            <label for="exampleInputEmail1" class="form-label"
+              >Qual sua área</label
+            >
+            <select class="form-select" aria-label="Default select example">
+              <option value="1">Desenvolvedor Web</option>
+              <option value="2">Desenvolvedor App</option>
+              <option value="3">Desenvolvedor de Games</option>
+              <option value="4">Designer</option>
+            </select>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+              checked
+            />
+            <label class="form-check-label" for="flexCheckChecked">
+              Sou maior de idade
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckChecked"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Concordo com os
+              <a href="https://getbootstrap.com/" target="_blank">termos</a>
+            </label>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Descreva-se</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="col-md-12">
+            <label for="inputCity" class="form-label">Cidade</label>
+            <input type="text" class="form-control" id="inputCity" />
+          </div>
+          <button type="submit" class="btn btn-primary col-lg-2">Enviar</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
